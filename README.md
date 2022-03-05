@@ -2,21 +2,9 @@
 <h3 align="center">Backend | Machine Learning | Computer Vision</h3>
 <h3 align="center">NodeJS | Flask | MongoDB | Tensorflow | Detectron2</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=stenzr&label=Profile%20views&color=0e75b6&style=flat" alt="stenzr" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=stenzr&label=Profile%20views&color=0e75b6&style=flat" alt="stenzr" /> </p>
 
-- 🌱 I’m currently learning **Elastic Search**
-
-- 👨‍💻 All of my projects are available at [https://github.com/stenzr](https://github.com/stenzr)
-
-- 💬 Ask me about **Flask, Tensorflow, NodeJS, computer vision, mongoDB**
-
-- 📫 How to reach me **rkrohitkr01@gmail.com**
-
-- 📄 Know about my experiences [https://stenzr.github.io/](https://stenzr.github.io/)
-
-- ⚡ Fun fact **Talent is a Myth**
-
-<h3 align="left">I can be found at:</h3>
+<h3 align="center">Connect with me on:</h3>
 <p align="center">
  <!--- 
 <a href="https://dev.to/stenzr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="stenzr" height="30" width="40" /></a>
@@ -31,8 +19,23 @@
 <a href="https://www.leetcode.com/stenzr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="stenzr" height="30" width="40" /></a>
 </p>
 
+</br></br>
+
+- 🌱 I’m currently learning **Elastic Search**
+
+- 👨‍💻 All of my projects are available at [https://github.com/stenzr](https://github.com/stenzr)
+
+- 💬 Ask me about **Flask, Tensorflow, NodeJS, computer vision, mongoDB**
+
+- 📫 How to reach me **rkrohitkr01@gmail.com**
+
+- 📄 Know about my experiences [https://stenzr.github.io/](https://stenzr.github.io/)
+
+- ⚡ Fun fact **Talent is a Myth**
+</br>
+</br></br>
 <h3 align="center">Tools I have experience with:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> 
+<p align="center"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> 
 <!---  
 </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="django" width="40" height="40"/> </a>
 --->
@@ -52,7 +55,8 @@
    
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=stenzr&show_icons=true&locale=en&layout=compact" alt="stenzr" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=stenzr&show_icons=true&locale=en" alt="stenzr" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=stenzr&show_icons=true&locale=en" alt="stenzr" width="410"/></p>
+
 
 <!---
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=stenzr&" alt="stenzr" /></p>
