@@ -3,8 +3,8 @@
 <h3 align="center">Backend | Machine Learning | Computer Vision</h3>
 <h3 align="center">NodeJS | Flask | MongoDB | Tensorflow | Detectron2</h3>
 
-
 </br></br></br></br>
+
 <h3 align="center">Connect with me on:</h3>
 </br>
 <p align="center">
@@ -59,10 +59,9 @@
 </br>
 
 <p float="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=stenzr&show_icons=true&locale=en&layout=compact&theme=highcontrast)" alt="stenzr" width="270" height=100/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=stenzr&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&border=DD2727" alt="stenzr" width="270" /> 
-  <img src="https://github-readme-stats.vercel.app/api?username=stenzr&show_icons=true&locale=en&theme=highcontrast)" alt="stenzr" width="270" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=stenzr&show_icons=true&locale=en&layout=compact&theme=highcontrast" alt="stenzr" width="270" height=110/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=stenzr&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&border=DD2727" alt="stenzr" width="290" /> 
+  <img src="https://github-readme-stats.vercel.app/api?username=stenzr&theme=highcontrast&show_icons=true" alt="stenzr" width="290" />
 </p>
-
 
 <hr>
