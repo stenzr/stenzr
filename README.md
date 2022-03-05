@@ -1,8 +1,9 @@
 <h1 align="center">Hi 👋, I'm Rohit Kumar</h1>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=stenzr&label=Profile%20views&color=0e75b6&style=flat" alt="stenzr" /> </p>
 <h3 align="center">Backend | Machine Learning | Computer Vision</h3>
 <h3 align="center">NodeJS | Flask | MongoDB | Tensorflow | Detectron2</h3>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=stenzr&label=Profile%20views&color=0e75b6&style=flat" alt="stenzr" /> </p>
+
 
 <h3 align="center">Connect with me on:</h3>
 <p align="center">
@@ -57,8 +58,6 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=stenzr&show_icons=true&locale=en" alt="stenzr" width="410"/></p>
 
+<p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=stenzr&" alt="stenzr" /></p>
 
-<!---
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=stenzr&" alt="stenzr" /></p>
---->
 <hr>
