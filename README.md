@@ -23,7 +23,6 @@
 
 </br></br>
 
-- 🌱 I’m currently learning **Elastic Search**
 
 - 👨‍💻 All of my projects are available at [https://github.com/stenzr](https://github.com/stenzr)
 
