@@ -26,15 +26,15 @@
 </p>
 <br><br>
 
-- 👨‍💻 All of my projects are available at [https://github.com/stenzr](https://github.com/stenzr)
-- 💬 Ask me about ** SaaS Automation, Scalable System Design**
-- 📫 How to reach me **rkrohitkr01@gmail.com**
-- 📄 Know about my experiences [https://stenzr.github.io/](https://stenzr.github.io/)
+- 👨‍💻 My Projects:  [https://github.com/stenzr](https://github.com/stenzr)
+- 💬 Ask me about:  ** SaaS Automation, Scalable System Design**
+- 📫 Reach Me @ **rkrohitkr01@gmail.com**
+- 📄 Know about my experiences: [https://stenzr.github.io/](https://stenzr.github.io/)
+- 📰 Read my blogs: [https://medium.com/@stenzr](https://medium.com/@stenzr)
 - ⚡ Fun fact **Talent is a Myth**
 
 <br><br><br>
 <br>
-<hr>
 <hr>
 
 <h3 align="center">Stats:</h3>
@@ -49,4 +49,6 @@
 <p align="center">
    <img src="https://leetcard.jacoblin.cool/stenzr" width="400" alt="LeetCode Stats" />
 </p>
+
+<hr>
 
