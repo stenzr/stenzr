@@ -54,13 +54,21 @@
 
 </br>
  <hr>
- <h3 align="center">My Github Stats:</h3>
+ <hr>
+<h3 align="center">My Coding Stats:</h3>
 </br>
 
-<p float="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=stenzr&show_icons=true&locale=en&layout=compact&theme=highcontrast" alt="stenzr" width="230" height=110/>
+<p float="left" align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=stenzr&show_icons=true&locale=en&layout=compact&theme=highcontrast" alt="stenzr" width="230" height="110"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=stenzr&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&border=DD2727" alt="stenzr" width="250" /> 
   <img src="https://github-readme-stats.vercel.app/api?username=stenzr&theme=highcontrast&show_icons=true" alt="stenzr" width="250" />
 </p>
 
+</br>
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/stenzr" width="400" alt="LeetCode Stats" />
+</p>
+
+<hr>
 <hr>
