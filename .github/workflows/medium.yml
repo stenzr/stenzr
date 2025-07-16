@@ -2,19 +2,17 @@ name: Update README with Medium Blogs
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # midnight
+    - cron: '0 * * * *'  # every hour
   workflow_dispatch:
 
 jobs:
   update-readme:
-    name: Update Medium Posts
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # important for full git history
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -26,20 +24,19 @@ jobs:
           npm install rss-parser
           node .github/scripts/updateMedium.js
 
-      - name: Configure Git
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "✨ update latest Medium blogs"
+          branch: medium-update-auto
+          create_branch: true
 
-      - name: Create temporary branch and commit changes
-        run: |
-          git checkout -b update-readme-branch
-          git add README.md
-          git diff --cached --quiet || git commit -m "✨ update latest Medium blogs"
-
-      - name: Merge and push to main
-        run: |
-          git fetch origin
-          git checkout -B main origin/main
-          git merge update-readme-branch
-          git push origin main
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "✨ update latest Medium blogs"
+          branch: medium-update-auto
+          title: "📬 Update README with latest Medium blogs"
+          body: "This PR updates the README with your latest Medium articles."
+          labels: "auto-update, blog"
+          delete-branch: true
