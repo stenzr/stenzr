@@ -53,11 +53,13 @@
 <hr>
 <h3 align="center">Latest Blogs:</h3>
 <!-- MEDIUM:START -->
-- [Session Management — being enterprise-ready](https://stenzr.medium.com/session-management-being-enterprise-ready-74cfc614b315?source=rss-75b52dbfae85------2)
-- [IPSec: The Backbone of Secure Network Communication](https://stenzr.medium.com/ipsec-the-backbone-of-secure-network-communication-3745697d3981?source=rss-75b52dbfae85------2)
-- [IPv4 vs IPv6: Why It’s Time to Transition and What You Need to Know](https://stenzr.medium.com/ipv4-vs-ipv6-why-its-time-to-transition-and-what-you-need-to-know-3b6e04db1fd0?source=rss-75b52dbfae85------2)
-- [Unlocking Cost-Efficient LLMs with Prompt Caching: How to Slash Token Costs and Improve Latency](https://stenzr.medium.com/unlocking-cost-efficient-llms-with-prompt-caching-how-to-slash-token-costs-and-improve-latency-158a2c83a9c7?source=rss-75b52dbfae85------2)
-- [Unlocking AI Tooling with Model Context Protocol (MCP): The Plug-and-Play API Layer for LLMs](https://stenzr.medium.com/unlocking-ai-tooling-with-model-context-protocol-mcp-the-plug-and-play-api-layer-for-llms-f37f3a21878d?source=rss-75b52dbfae85------2)
+<ul>
+<li><a href="https://stenzr.medium.com/session-management-being-enterprise-ready-74cfc614b315" target="_blank">Session Management — being enterprise-ready</a></li>
+<li><a href="https://stenzr.medium.com/ipsec-the-backbone-of-secure-network-communication-3745697d3981" target="_blank">IPSec: The Backbone of Secure Network Communication</a></li>
+<li><a href="https://stenzr.medium.com/ipv4-vs-ipv6-why-its-time-to-transition-and-what-you-need-to-know-3b6e04db1fd0" target="_blank">IPv4 vs IPv6: Why It’s Time to Transition and What You Need to Know</a></li>
+<li><a href="https://stenzr.medium.com/unlocking-cost-efficient-llms-with-prompt-caching-how-to-slash-token-costs-and-improve-latency-158a2c83a9c7" target="_blank">Unlocking Cost-Efficient LLMs with Prompt Caching: How to Slash Token Costs and Improve Latency</a></li>
+<li><a href="https://stenzr.medium.com/unlocking-ai-tooling-with-model-context-protocol-mcp-the-plug-and-play-api-layer-for-llms-f37f3a21878d" target="_blank">Unlocking AI Tooling with Model Context Protocol (MCP): The Plug-and-Play API Layer for LLMs</a></li>
+</ul>
 <!-- MEDIUM:END -->
 <hr>
 
