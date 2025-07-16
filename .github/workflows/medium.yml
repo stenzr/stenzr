@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # important for git pull to work
+          fetch-depth: 0  # important for full git history
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -25,30 +25,21 @@ jobs:
         run: |
           npm install rss-parser
           node .github/scripts/updateMedium.js
+
       - name: Configure Git
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-#   - name: Pull latest changes to avoid push conflicts
-#     run: git pull origin main --ff || true
-
-#   - name: Commit and push changes
-#     run: |
-#       git add README.md
-#       git diff --cached --quiet || git commit -m '✨ update latest Medium blogs'
-#       git push origin main
-
-      - name: Create temporary branch and update README
+      - name: Create temporary branch and commit changes
         run: |
           git checkout -b update-readme-branch
           git add README.md
           git diff --cached --quiet || git commit -m "✨ update latest Medium blogs"
 
-      - name: Push changes to main
+      - name: Merge and push to main
         run: |
-          git fetch origin main
-          git checkout main
+          git fetch origin
+          git checkout -B main origin/main
           git merge update-readme-branch
           git push origin main
-
