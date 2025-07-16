@@ -25,17 +25,30 @@ jobs:
         run: |
           npm install rss-parser
           node .github/scripts/updateMedium.js
-
       - name: Configure Git
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-      - name: Pull latest changes to avoid push conflicts
-        run: git pull origin main --ff || true
+#   - name: Pull latest changes to avoid push conflicts
+#     run: git pull origin main --ff || true
 
-      - name: Commit and push changes
+#   - name: Commit and push changes
+#     run: |
+#       git add README.md
+#       git diff --cached --quiet || git commit -m '✨ update latest Medium blogs'
+#       git push origin main
+
+      - name: Create temporary branch and update README
         run: |
+          git checkout -b update-readme-branch
           git add README.md
-          git diff --cached --quiet || git commit -m '✨ update latest Medium blogs'
+          git diff --cached --quiet || git commit -m "✨ update latest Medium blogs"
+
+      - name: Push changes to main
+        run: |
+          git fetch origin main
+          git checkout main
+          git merge update-readme-branch
           git push origin main
+
