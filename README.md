@@ -52,3 +52,9 @@
 
 <hr>
 
+<hr>
+<h3 align="center">Latest Blogs:</h3>
+<!-- MEDIUM:START -->
+<!-- MEDIUM:END -->
+<hr>
+
