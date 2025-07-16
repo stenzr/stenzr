@@ -32,7 +32,7 @@ jobs:
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
       - name: Pull latest changes to avoid push conflicts
-        run: git pull origin main --rebase || true
+        run: git pull origin main --ff || true
 
       - name: Commit and push changes
         run: |
